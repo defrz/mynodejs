@@ -1,0 +1,25 @@
+body{
+	background: #fff !important;
+	overflow-y: scroll;
+	overflow: auto;
+}
+.jumbotron{
+	background: #7b9abb !important;
+	margin:0px !important;
+	color:#fff;
+}
+@media (min-width: 576px) {
+.jumbotron
+	{
+	padding: 1rem 2rem !important;
+	
+	}
+}
+.fixed-top{
+	position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    transition: all 0.8s ease-in-out;
+}
